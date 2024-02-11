@@ -39,7 +39,7 @@ This project utilizes the following tools to enhance the development experience 
 
 ## Architecture
 
-The architecture of this project is based on the principles outlined in the [TAO of React](https://drive.google.com/file/d/1tGgBN3oxBKrAlvy7iQ2niCmrJNLFFK_X/view?usp=share_link) book, chapter 1. The modular architecture follows a component-driven approach to building the user interface.
+The architecture of this project is based on the principles outlined in the [TAO of React](https://drive.google.com/file/d/1pM45j23cq7MvtydoAeVq0eafsMJjTIUr/view?usp=sharing) book, chapter 1. The modular architecture follows a component-driven approach to building the user interface.
 
 ## Contributing
 
