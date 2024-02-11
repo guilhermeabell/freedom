@@ -14,7 +14,7 @@ export function BreadcrumbMenu() {
   const breadcrumbPath = breadcrumbMapping[pathnameWithoutSlash] || breadcrumbMapping[HOME_ROUTE]
 
   return (
-    <div className="mx-auto px-1 py-2">
+    <div className="mx-auto px-1 py-8">
       <div className="text-sm text-brand-purple font-bold">{breadcrumbPath}</div>
     </div>
   )
