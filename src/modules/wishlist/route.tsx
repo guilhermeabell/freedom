@@ -7,9 +7,7 @@ const PageComponent = lazy(() => import('./page'))
 const route: RouteObject = {
   path: '/wishlist',
   Component: () => (
-    <Suspense
-      fallback={<h1>Carregando...</h1>}
-    >
+    <Suspense fallback={<h1>Carregando...</h1>}>
       <PageComponent />
     </Suspense>
   ),

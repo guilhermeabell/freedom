@@ -1,4 +1,4 @@
-import { ApiRoutes, HOME_ROUTE } from "../../../common/api/routes"
+import { ApiRoutes, HOME_ROUTE } from '../../../common/api/routes'
 import { useLocation } from 'react-router-dom'
 
 const breadcrumbMapping: Record<string, string> = {
@@ -15,14 +15,7 @@ export function BreadcrumbMenu() {
 
   return (
     <div className="mx-auto px-1 py-2">
-      <div className="text-sm text-brand-purple font-bold">
-        {breadcrumbPath}
-      </div>
+      <div className="text-sm text-brand-purple font-bold">{breadcrumbPath}</div>
     </div>
   )
-
-
-
-
-
 }

@@ -4,4 +4,3 @@ export enum ApiRoutes {
 }
 
 export const HOME_ROUTE = '/'
-
