@@ -1,6 +1,11 @@
-import { Heart } from 'lucide-react'
+import { Heart, X } from 'lucide-react' // Importe também o ícone de fechar (X)
 
-export function ProductCard() {
+interface ProductCardProps {
+  isWishlistItem?: boolean
+  onRemoveFromWishlist?: () => void
+}
+
+export function ProductCard({ isWishlistItem = false, onRemoveFromWishlist }: ProductCardProps) {
   return (
     <div className="w-72 h-97 bg-brand-white rounded-lg shadow-md flex flex-col overflow-hidden relative">
       <img
@@ -8,9 +13,18 @@ export function ProductCard() {
         alt="Imagem do produto"
         className="w-full h-3/5 object-cover rounded-t-lg transition-opacity duration-300 hover:opacity-80"
       />
-      <button className="absolute top-4 right-4 bg-transparent text-gray-600 hover:text-red-500 focus:outline-none">
-        <Heart />
-      </button>
+      {isWishlistItem ? (
+        <button
+          className="absolute top-4 right-4 bg-transparent text-gray-600 hover:text-gray-300 focus:outline-none"
+          onClick={onRemoveFromWishlist}
+        >
+          <X />
+        </button>
+      ) : (
+        <button className="absolute top-4 right-4 bg-transparent text-gray-600 hover:text-red-500 focus:outline-none">
+          <Heart />
+        </button>
+      )}
       <div className="p-4 flex flex-col flex-grow">
         <div className="text-lg font-bold text-brand-purple">Tenis Adidas Breaknet Feminino</div>
         <div className="flex items-center mb-2 gap-1">
