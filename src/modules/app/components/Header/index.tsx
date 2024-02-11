@@ -13,7 +13,7 @@ export function Header() {
   }
 
   return (
-    <header className="bg-brand-purple w-full h-16 z-50 shadow-md">
+    <header className="bg-brand-purple w-full h-16 z-50 shadow-md fixed top-0 left-0">
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
         <div className="flex items-center py-3">
           <a onClick={handleNavigateToHome} className="cursor-pointer">
