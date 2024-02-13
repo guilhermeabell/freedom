@@ -1,4 +1,4 @@
-import { Product } from '../types'
+import { Product } from '@/schemas/types/product'
 
 interface RawProduct {
   selectedProduct: string
