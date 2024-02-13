@@ -1,7 +1,7 @@
 import { RouteObject } from 'react-router-dom'
-import { DefaultLayout } from './components/DefaultLayout'
-import productsList from '../productsList/route'
-import wishlist from '../wishlist/route'
+import { DefaultLayout } from '@/modules/app/components/DefaultLayout'
+import productsList from '@/modules/productsList/route'
+import wishlist from '@/modules/wishlist/route'
 
 export const routes: RouteObject[] = [
   {

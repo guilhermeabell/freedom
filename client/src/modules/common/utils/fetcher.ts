@@ -1,6 +1,6 @@
 import { formatProducts } from './formatProducts'
-import { Product } from '../types'
-import axiosInstance from './axios'
+import { Product } from '@/schemas/types/product'
+import { axiosInstance } from './axios'
 import { AxiosResponse } from 'axios'
 
 export const fetchProducts = async (): Promise<Product[]> => {

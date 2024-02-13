@@ -1,5 +1,5 @@
-import { ApiRoutes, HOME_ROUTE } from '../../../common/api/routes'
-import { useLocation } from 'react-router-dom'
+import { ApiRoutes, HOME_ROUTE } from '@/modules/common/api/routes'
+import { useLocation, Link } from 'react-router-dom'
 
 const breadcrumbMapping: Record<string, string> = {
   [HOME_ROUTE]: 'Home',
@@ -15,7 +15,9 @@ export function BreadcrumbMenu() {
 
   return (
     <div className="mx-auto px-1 py-8">
-      <div className="text-sm text-brand-purple font-bold">{breadcrumbPath}</div>
+      <div className="text-sm text-brand-purple font-bold">
+        {pathnameWithoutSlash === ApiRoutes.WISHLIST ? <Link to={HOME_ROUTE}>{breadcrumbPath}</Link> : breadcrumbPath}
+      </div>
     </div>
   )
 }

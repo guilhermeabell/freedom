@@ -23,7 +23,7 @@ export function Header() {
         <div className="flex items-center space-x-4">
           <button onClick={handleNavigateToWishlist} className="text-brand-white font-semibold flex justify-between gap-2">
             <Heart />
-            Lista de desejos
+            Wishlist
           </button>
         </div>
       </div>
