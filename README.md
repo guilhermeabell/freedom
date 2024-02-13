@@ -36,6 +36,8 @@ This project utilizes the following tools to enhance the development experience 
 
 - [Vite](https://vitejs.dev/)
 - [Vitest](https://vitest.dev/)
+- [Zustand](https://zustand-demo.pmnd.rs/)
+- [RTL](https://testing-library.com/docs/react-testing-library/intro/)
 
 ## Architecture
 
