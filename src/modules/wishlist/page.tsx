@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
-import { useAppStore } from '../app/api/app.store'
-import { ProductCard } from '../app/components/ProductCard'
-import { fetchProducts } from '../common/utils/fetcher'
+import { useAppStore } from '@/modules/app/api/app.store'
+import { ProductCard } from '@/modules/app/components/ProductCard'
+import { fetchProducts } from '@/modules/common/utils/fetcher'
 import { Heart } from 'lucide-react'
 
 export default function Wishlist() {

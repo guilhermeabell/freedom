@@ -1,4 +1,4 @@
-import { createSelectors } from '../../common/utils/createSelectors'
+import { createSelectors } from '@/modules/common/utils/createSelectors'
 import create from 'zustand'
 
 interface Product {
