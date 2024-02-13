@@ -6,6 +6,10 @@ import { Product } from '@/modules/common/types/index'
 interface ProductCardProps {
   product: Product
   isWishlist?: boolean
+  addToWishlist?: (id: string) => void
+  removeFromWishlist?: (id: string) => void
+  wishlist?: string[]
+  showMessage?: (message: { severity: 'success' | 'error' | 'warning' | 'info'; message: string }) => void
 }
 
 export function ProductCard({ product, isWishlist }: Readonly<ProductCardProps>) {
