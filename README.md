@@ -4,7 +4,7 @@ Welcome to the Freedom - Technical challenge frontend project 👋🏻
 
 ## Desktop App Overview
 
-![HomePage](https://imgur.com/oLuUCB8)
+![HomePage](https://i.postimg.cc/nhxscBmh/Captura-de-Tela-2024-02-12-a-s-23-09-42.png)
 
 ![Wishlist EmptyPage](https://imgur.com/9zhbZD9)
 
