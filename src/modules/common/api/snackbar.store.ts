@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 import { createSelectors } from '@/modules/common/utils/createSelectors'
-import { SnackbarMessage } from '@/modules/common/types'
+import { SnackbarMessage } from '@/schemas/types/snackbar'
 
 export type SnackbarState = {
   snack: SnackbarMessage | null
