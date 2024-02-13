@@ -1,6 +1,22 @@
-# Netshoes (Wishlist Feature) - Freedom Technical challenge
+# Netshoes (Wishlist Feature) - Freedom Technical challenge Mobile First App
 
 Welcome to the Freedom - Technical challenge frontend project 👋🏻
+
+## Desktop App Overview
+
+![HomePage](https://imgur.com/oLuUCB8)
+
+![Wishlist EmptyPage](https://imgur.com/9zhbZD9)
+
+![WishlistPage](https://imgur.com/eb1TZ9H)
+
+## Mobile App Overview
+
+![HomePage](https://imgur.com/SkJpLue)
+
+![Wishlist EmptyPage](https://imgur.com/2qtUduO)
+
+![WishlistPage](https://imgur.com/kxyVdCm)
 
 ## Getting Started
 
