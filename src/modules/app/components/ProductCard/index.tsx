@@ -1,7 +1,7 @@
 import { Heart, X } from 'lucide-react'
-import { useAppStore } from '../../api/app.store'
-import { useSnackStore } from '../../../common/api/snackbar.store'
-import { Product } from '../../../common/types/index'
+import { useAppStore } from '@/modules/app/api/app.store'
+import { useSnackStore } from '@/modules/common/api/snackbar.store'
+import { Product } from '@/modules/common/types/index'
 
 interface ProductCardProps {
   product: Product

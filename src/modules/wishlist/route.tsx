@@ -1,6 +1,6 @@
 import { Suspense, lazy } from 'react'
 import { RouteObject } from 'react-router-dom'
-import { ProductCardSkeleton } from '../app/components/ProductCard/skeleton'
+import { ProductCardSkeleton } from '@/modules/app/components/ProductCard/skeleton'
 
 const PageComponent = lazy(() => import('./page'))
 

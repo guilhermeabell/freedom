@@ -1,5 +1,5 @@
 import { formatProducts } from './formatProducts'
-import { Product } from '../types'
+import { Product } from '@/modules/common/types'
 import { axiosInstance } from './axios'
 import { AxiosResponse } from 'axios'
 

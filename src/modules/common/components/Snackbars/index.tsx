@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Alert, Snackbar, SnackbarCloseReason } from '@mui/material'
-import { useSnackStore } from '../../api/snackbar.store'
+import { useSnackStore } from '@/modules/common/api/snackbar.store'
 
 export function Snackbars() {
   const snack = useSnackStore.use.snack()

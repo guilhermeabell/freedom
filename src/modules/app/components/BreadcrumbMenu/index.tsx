@@ -1,4 +1,4 @@
-import { ApiRoutes, HOME_ROUTE } from '../../../common/api/routes'
+import { ApiRoutes, HOME_ROUTE } from '@/modules/common/api/routes'
 import { useLocation, Link } from 'react-router-dom'
 
 const breadcrumbMapping: Record<string, string> = {

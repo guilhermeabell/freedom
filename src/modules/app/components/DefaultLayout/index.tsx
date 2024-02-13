@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom'
-import { Header } from '../Header'
-import { BreadcrumbMenu } from '../BreadcrumbMenu'
+import { Header } from '@/modules/app/components/Header'
+import { BreadcrumbMenu } from '@/modules/app/components/BreadcrumbMenu'
 
 export function DefaultLayout() {
   return (
