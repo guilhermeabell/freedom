@@ -6,17 +6,17 @@ Welcome to the Freedom - Technical challenge frontend project 👋🏻
 
 ![HomePage](https://i.postimg.cc/nhxscBmh/Captura-de-Tela-2024-02-12-a-s-23-09-42.png)
 
-![Wishlist EmptyPage](https://imgur.com/9zhbZD9)
+![Wishlist EmptyPage](https://i.postimg.cc/5tN68Jnc/Captura-de-Tela-2024-02-12-a-s-23-09-51.png)
 
-![WishlistPage](https://imgur.com/eb1TZ9H)
+![WishlistPage]([url=https://postimg.cc/4KcJ4WZG][img]https://i.postimg.cc/4KcJ4WZG/Captura-de-Tela-2024-02-12-a-s-23-10-16.png[/img][/url])
 
 ## Mobile App Overview
 
-![HomePage](https://imgur.com/SkJpLue)
+![HomePage](https://i.postimg.cc/Jhf0vXR8/image1.jpg)
 
-![Wishlist EmptyPage](https://imgur.com/2qtUduO)
+![Wishlist EmptyPage](https://i.postimg.cc/3N7RJHyb/image2.jpg)
 
-![WishlistPage](https://imgur.com/kxyVdCm)
+![WishlistPage](https://i.postimg.cc/LXj5pss1/image3.jpg)
 
 ## Getting Started
 
