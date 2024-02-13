@@ -8,7 +8,7 @@ Welcome to the Freedom - Technical challenge frontend project 👋🏻
 
 ![Wishlist EmptyPage](https://i.postimg.cc/5tN68Jnc/Captura-de-Tela-2024-02-12-a-s-23-09-51.png)
 
-![WishlistPage]([url=https://postimg.cc/4KcJ4WZG][img]https://i.postimg.cc/4KcJ4WZG/Captura-de-Tela-2024-02-12-a-s-23-10-16.png[/img][/url])
+![WishlistPage](https://i.postimg.cc/4KcJ4WZG/Captura-de-Tela-2024-02-12-a-s-23-10-16.png)
 
 ## Mobile App Overview
 
