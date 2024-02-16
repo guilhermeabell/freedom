@@ -4,7 +4,7 @@ Welcome to the Freedom - Technical challenge frontend project 👋🏻
 
 ## Getting Started
 
-1. This project was built using [pnpm](https://npmjs.com) as the package manager. So make sure you have it installed (check "engines" field of [package.json](/package.json) for more infos).
+1. This project was built using [npm](https://npmjs.com) as the package manager. So make sure you have it installed (check "engines" field of [package.json](/package.json) for more infos).
 
 2. Install the dependencies
 
